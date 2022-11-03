@@ -10,7 +10,7 @@ import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "characters")
 @Parcelize
-data class Result(
+data class CharacterResult(
     @SerializedName("gender")
     var gender: String = "",
     @SerializedName("id")
@@ -24,6 +24,6 @@ data class Result(
     var species: String = "",
     @SerializedName("status")
     var status: String = "",
-    @ColumnInfo(name = "is_favorite")
+    @ColumnInfo(name = "isFavorite")
     var isFavorite: Boolean = false
 ): Parcelable

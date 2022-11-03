@@ -5,5 +5,5 @@ import com.google.gson.annotations.SerializedName
 
 data class CharacterResponse(
     @SerializedName("results")
-    var results: List<Result> = listOf()
+    val results: List<CharacterResult> = listOf()
 )
