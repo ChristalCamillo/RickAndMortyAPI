@@ -1,10 +1,10 @@
 package com.example.rickandmorty.ui.splash.view
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rickandmorty.R
-import com.example.rickandmorty.ui.characterlist.view.CharacterListActivity
+import com.example.rickandmorty.ui.characterlist.view.CharactersListActivity
 import java.util.*
 
 class SplashActivity : AppCompatActivity() {
@@ -23,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun jump() {
         timer.cancel()
-        startActivity(Intent(this, CharacterListActivity::class.java))
+        startActivity(Intent(this, CharactersListActivity::class.java))
         this.finish()
     }
 }
