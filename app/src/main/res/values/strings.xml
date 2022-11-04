@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RickAndMorty</string>
+    <string name="content_rick_morty_image">Personagens Rick e Morty saindo de uma bola verde como um portal</string>
 </resources>
