@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.characterlist.view.CharacterListActivity">
+    tools:context=".ui.characterlist.view.CharactersListActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_charactersList"
@@ -23,7 +23,7 @@
         android:id="@+id/favButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_16"
+        android:layout_margin="@dimen/margin_8"
         android:contentDescription="@string/image_vector_of_a_star"
         android:src="@drawable/ic_disfavorite"
         android:scaleType="center"

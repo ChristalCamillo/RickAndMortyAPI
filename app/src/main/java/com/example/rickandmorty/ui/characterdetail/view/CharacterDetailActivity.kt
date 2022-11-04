@@ -33,7 +33,7 @@ class CharacterDetailActivity : AppCompatActivity() {
         binding.iconStar.setOnClickListener {
             character.isFavorite = !character.isFavorite
             updateFavoriteIconColor()
-            viewModel.updateFavoriteCharacter(character)
+            viewModel.updateCharacterFavorite(character)
             showFavoriteUpdateToast()
         }
     }
