@@ -1,12 +1,11 @@
-package com.example.rickandmorty.ui.home.view
+package com.example.rickandmorty.ui.characterfavorite.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.rickandmorty.R
 
-class MainActivity : AppCompatActivity() {
+class CharacterFavoriteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_character_favorite)
     }
 }
